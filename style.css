@@ -1,0 +1,37 @@
+body{
+    margin: 2px;
+    padding: 2px;
+}
+body header {
+    margin: auto;
+    padding: 100px;
+    background-color: rgb(1, 157, 185);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+header div{
+    line-height: 5px;
+}
+header div #name{
+    font-family:monospace;
+    color: aliceblue;
+    font-size: 100px;
+}
+header div #tag{
+    font-family:monospace;
+    color: aliceblue;
+    font-size: 50px;
+}
+main .box{
+    background-color:  rgb(1, 157, 185);
+}
+main .part{
+    margin: auto;
+    padding-inline: 100px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
