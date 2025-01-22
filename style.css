@@ -12,6 +12,9 @@ body header {
     justify-content: center;
     justify-content: space-between;
 }
+body header img{
+    border-radius: 500px;
+}
 header div{
     line-height: 5px;
 }
@@ -26,12 +29,17 @@ header div #tag{
     font-size: 50px;
 }
 main .box{
+    padding: 5px;
     background-color:  rgb(1, 157, 185);
+    display: inline-flex;
+    color: aliceblue;
+}
+main h5{
+    color:  rgb(1, 157, 185);
 }
 main .part{
     margin: auto;
     padding-inline: 100px;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
 }
